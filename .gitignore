@@ -36,4 +36,6 @@ ompiled source #
 ehthumbs.db
 Thumbs.db
 
-node_modules
+_site/
+node_modules/
+package-lock.json
