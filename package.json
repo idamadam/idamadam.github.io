@@ -1,0 +1,19 @@
+{
+  "name": "idamadam.com",
+  "version": "1.0.0",
+  "description": "Idam Adam's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idamadam/idamadam.com.git"
+  },
+  "author": "Idam Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idamadam/idamadam.com/issues"
+  },
+  "homepage": "https://github.com/idamadam/idamadam.com#readme"
+}
