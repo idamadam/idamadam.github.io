@@ -5,10 +5,26 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("fonts");
 
     eleventyConfig.addShortcode("header", function(marker, title, description){
-      return `<div class="max-width-3 mx-auto px1 mt3 clearfix">
+      return `
+        <div class="max-width-3 mx-auto px1 mt3 clearfix">
         <span>${marker}</span>
         <h1 class="case-study">${title}</h1>
         <p class="subhead">${description}</p>
-        </div>`
-    })
+        </div>
+      `
+    });
+
+    eleventyConfig.addShortcode("contentBlock", function(title, leftCol, leftContent, rightContent){
+      return `
+        <div class="max-width-4 mx-auto px1 clearfix">
+          <h2>${title}</h2>
+          <div class="md-col md-col-${leftCol} pr2">
+            ${leftContent}
+          </div>
+          <div class="md-col md-col-${12 - leftCol} pl2">
+            ${rightContent}
+          </div>
+        </div>
+      `
+    });
   };
