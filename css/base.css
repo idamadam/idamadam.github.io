@@ -748,4 +748,16 @@ h2{
   }
 }
 
+.subhead {
+  font-size: 1.5em;
+  margin-top: 0;
+}
 
+h1.case-study  {
+  margin-top: 0.3em;
+  margin-bottom: 0
+}
+
+.caption {
+  font-size: 0.6em
+}
