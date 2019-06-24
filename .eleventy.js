@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
       `
     });
 
-    eleventyConfig.addShortcode("contentBlock", function(title, leftCol, leftContent, rightContent){
+    eleventyConfig.addShortcode("contentBlock", function(title, leftCol, leftContent='', rightContent=''){
       return `
         <div class="max-width-4 mx-auto px1 clearfix">
           <h2>${title}</h2>
