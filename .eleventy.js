@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addShortcode("header", function(marker, title, description){
       return `
+        <hr />
         <div class="max-width-3 mx-auto px1 mt3 clearfix">
         <span>${marker}</span>
         <h1 class="case-study">${title}</h1>

@@ -761,3 +761,7 @@ h1.case-study  {
 .caption {
   font-size: 0.6em
 }
+
+hr {
+  border-color: #333333;
+}
