@@ -4,7 +4,9 @@ layout: base
 <div class="max-width-3 mx-auto px1 mt3 clearfix">
   <span>Case Study</span>
   <h1 class="case-study">MYOB Time Tracking for AccountRight</h1>
-  <p>Iterative, lean UX where I worked closely with the devs.</p>
+  <img src="/images/preview-images.png" alt="Preview of the app" />
+  <p>The following case study describes the process my team and I took to develop this app for iOS and Android. The app enabled MYOB customers who bill for their time to capture their activities on the phone rather than requiring the use of our desktop software to enter in their software.</p>
+  <p>I was the sole Product Designer working together with a team comprising of a Product Manager, Business Analyst and Developers to ship the product. We worked very tightly together in iterative cycles with a focus on delivering working software at the end of each round. In addition to the development team, I developed a close relationship with our customers through the process by asking for feedback consistently. </p>
 </div>
 {# Milestone 1 #}
 {% header 
@@ -16,19 +18,19 @@ layout: base
   'Discovery', 6,
   '<p>As this was to be a companion app to the MYOB desktop product. The first part of discovery was understanding the part of the desktop product we were affecting. Since the goal was to get something out fast, this involved me mapping out the steps required to submit an activity slip on the desktop.</p>
   <p>I also had conversations with our Product Manager as well as other stakeholders within the company to better understand the target audience, and the reasons they used the product.</p>',
-  '<img src="/images/GIF Video.png" alt="Framer Prototype">
+  '<video width="100%" loop controls><source src="/images/desktop-time-billing.mp4"></video>
   <p class="caption">Fig 1 - The Activity Slip process on the Desktop AccountRight app</p>'
 %}
 {% contentBlock
   'Definition & design', 3,
   '<video width="100%" loop autoplay controls><source src="/images/framer-prototype.mp4"></video>
-  <p class="caption">Fig 2 - Framer Prototype, give it a whirl!</p>',
+  <p class="caption">Fig 2 - Framer Prototype</p>',
   '<p>Based on this information, I first started with an extremely rough prototype to map out how we could translate the desktop process into a mobile one. I built out the flow using Framer and had an interactive prototype to generate discussion. I then used the prototype to spark conversations with our developers to understand what was possible, and what was not. The prototype included lots of nods to features that I wanted to understand could be possible.</p>'
 %}
 {% contentBlock
   'Results', 8,
   '<p>After this initial workflow was completed, I spent some time on other projects and not actively working on it. However, the developers took the original concept I did and built out the flows using the prototype as a guide. This allowed us to move really, really fast and get a rough version of the app built out. This meant that we could play with real software on our phone as quickly as possible.</p>',
-  '<img src="/images/New-activity-screen.png" alt="Framer Prototype">
+  '<img src="/images/New-activity-screen.png" alt="New Activity screen">
   <p class="caption">Fig 3 - The submit activity slip screen on the initial app</p>'
 %}
 {# Milestone 2 #}
@@ -40,7 +42,7 @@ layout: base
 {% contentBlock
   'Discovery', 4,
   '<img src="/images/usability-mobile.jpg" alt="Framer Prototype">
-  <p class="caption">Fig 3 - The submit activity slip screen on the initial app</p>',
+  <p class="caption">Fig 4 - The submit activity slip screen on the initial app</p>',
   '<p>After we had a first cut of the software working on our phones. The next phase of the project was to get feedback from our users as to whether it fit their needs as well as understanding what worked and what didn’t. We spoke to one of our customers who had previously indicated that they would like a mobile time tracking solution.</p>
   <p>The interview and usability test revealed that the time tracking process was core to their business, but that there were a lot of inefficiencies to the way they were doing it right now. It involved recording information in a separate place, like a notebook and then spending time on a computer at some time during the week to upload the information to our desktop software. They’ve been long asking for a mobile solution to upload this information. This insight validated the product direction that we were going in.</p>
   <p>I also spent some time with our development team understanding the technology behind React Native and how the code compiles to native iOS & Android components. This information was really useful to the wider design team and I to understanding what kind of components and visual style we could use within the app. This helped me better understand the constraints and what we got out of the box with react native. This helped me understand what cases to handle with the design and to know what would be taken care of.</p>'
@@ -49,8 +51,8 @@ layout: base
   'Definition & Design', 6,
   '<p>Collating all the feedback let us make improvements to the existing flow we had. For example, some of the feedback we received indicated that users preferred to enter information in their own way as opposed to entering it in the flow that we made. In order to fix this issue, we changed the order of the flow to allow people to add in information as they liked.</p>
   <p>The conversations we had with our users also allowed us to understand what the key workflows were within the app and to identify other opportunities to build out the app. For example, we began to understand that an equivalent of the app was a diary, where people were recording their work related information.</p>',
-  '<img src="/images/updated-flows.png" alt="Framer Prototype">
-  <p class="caption">Fig 3 - The submit activity slip screen on the initial app</p>'
+  '<img src="/images/updated-flows.png" alt="Updated flows">
+  <p class="caption">Fig 5 - An example of how the flows were changed</p>'
 %}
 {% contentBlock
   'Results', 12,
@@ -69,15 +71,14 @@ layout: base
   '<p>After the first beta release, we started to receive bug reports & feature requests through our feedback platform. I also conducted another round of usability tests. Since the priority with this iteration was to polish the app to get to a point where we could push to private beta, the discovery phase was more around understanding what needed tightening with the flow we had in place.</p>'
 %}
 {% contentBlock
-  'Definition & design', 12,
-  '<ul>
-      <li>Updated visual language - Working with other designers at MYOB</li>
-      <li>Add a timer</li>
-    </ul>
-    <p>In order to aid mobile development of other apps within MYOB, we used this knowledge to establish a common mobile design style guide to be used across different MYOB mobile apps.</p>'
+  'Definition & design', 6,
+  '<p>In order to aid mobile development of other apps within MYOB, designers at MYOB worked together to establish a common mobile design style guide to be used across different MYOB mobile apps. After we agreed on a common style guide, we started to roll it out across the time tracking app which made it look a lot better and more modern.</p>
+  <p>We also added a timer function to the app, which was one of the most requested features to the app. In addition to this, we included many small bug fixes and workflow issues that were included as part of the feedback.</p>',
+  '<img src="/images/ui-refresh.png" alt="Refreshed UI">
+  <p class="caption">Fig 6 - The refreshed UI, complete with the timer</p>'
 %}
 {% contentBlock
   'Results', 12,
-  '<p>Release to open beta</p>
-  <a href="https://apps.apple.com/au/app/time-tracking-for-accountright/id1436800959?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-04-17&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a><a href="https://play.google.com/store/apps/details?id=com.myob.track&hl=en_AU&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/></a>'
+  '<p>After we completed this initial work, we released the app to the App Store as an Open Beta. The app was announced at one of our conferences and has gotten a great reception so far. </p>
+  <a href="https://apps.apple.com/au/app/time-tracking-for-accountright/id1436800959?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-04-17&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a><a href="https://play.google.com/store/apps/details?id=com.myob.track&hl=en_AU&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="135" height="40"/></a>'
 %}
