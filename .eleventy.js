@@ -7,17 +7,17 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addShortcode("header", function(marker, title, description){
       return `
         <hr />
-        <div class="max-width-3 mx-auto px1 mt3 clearfix">
-        <span>${marker}</span>
-        <h1 class="case-study">${title}</h1>
-        <p class="subhead">${description}</p>
+        <div class="max-width-3 mx-auto px1 mt3 clearfix hidden">
+          <span class="milestone">${marker}</span>
+          <h1 class="case-study">${title}</h1>
+          <p class="subhead">${description}</p>
         </div>
       `
     });
 
     eleventyConfig.addShortcode("contentBlock", function(title, leftCol, leftContent='', rightContent=''){
       return `
-        <div class="max-width-3 mx-auto px1 clearfix">
+        <div class="max-width-3 mx-auto px1 clearfix hidden">
           <h2>${title}</h2>
           <div class="md-col md-col-${leftCol} pr2">
             ${leftContent}
