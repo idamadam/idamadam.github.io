@@ -8,9 +8,9 @@ module.exports = function(eleventyConfig) {
       return `
         <hr />
         <div class="max-width-3 mx-auto px1 mt3 clearfix hidden">
-        <span>${marker}</span>
-        <h1 class="case-study">${title}</h1>
-        <p class="subhead">${description}</p>
+          <span class="milestone">${marker}</span>
+          <h1 class="case-study">${title}</h1>
+          <p class="subhead">${description}</p>
         </div>
       `
     });
