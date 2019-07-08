@@ -777,9 +777,3 @@ hr {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
-.flex {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
