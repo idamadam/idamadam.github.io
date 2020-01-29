@@ -16,10 +16,9 @@ module.exports = function(eleventyConfig) {
       `
     });
 
-    eleventyConfig.addShortcode("contentBlock", function(title, leftCol, leftContent='', rightContent=''){
+    eleventyConfig.addShortcode("contentBlock", function(leftCol, leftContent='', rightContent=''){
       return `
         <div class="max-width-3 mx-auto px1 clearfix hidden">
-          <h2>${title}</h2>
           <div class="md-col md-col-${leftCol} pr2">
             ${leftContent}
           </div>
