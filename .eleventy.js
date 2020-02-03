@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("files");
+    eleventyConfig.addPassthroughCopy({ "node_modules/normalize.css/normalize.css" : "css/normalize.css" }); 
 
     eleventyConfig.addShortcode("header", function(marker, title, description){
       return `
