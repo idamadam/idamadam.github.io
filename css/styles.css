@@ -1,0 +1,151 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 17px;
+    color: #222222;
+    line-height: 1.5rem;
+}
+
+header {
+    background: #EEEEEE;
+    background: linear-gradient(180deg, rgb(244, 225, 255) 0%, rgba(255,255,255,1) 100%);
+}
+
+header section.brand {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #AAAAAA;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+main section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    line-height: 0.9;
+}
+
+.subhead {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 0.3rem;
+}
+
+section.title {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0.5rem;
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.title img {
+    width: 100%;
+}
+
+.title p {
+    margin-bottom: 0;
+}
+
+.title .subhead {
+    margin-bottom: 0.5rem;
+}
+
+.title h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+section.understand {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+    grid-gap: 3rem;
+    max-width: 800px;
+    margin: 3rem auto;
+    align-items: center;
+}
+
+.caption {
+    font-size: 0.8rem;
+    color: #9b9b9b;
+    margin-top: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title .caption {
+    color: #7e5c93;
+    text-align: left;
+}
+
+@media only screen and (min-width: 720px) {
+    section.understand div:nth-child(1) {
+        grid-column-end: span 2;
+    }
+
+    #framerPrototype {
+        padding-top: 1rem;
+    }
+}
+
+.insight { 
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background: rgba(150, 150, 150, 0.1);
+    font-size: 110%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.insight h3 {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.insight p {
+    margin-top: 0.2rem;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+}
+
+.side-by-side {
+    display: grid;
+    max-width: none;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.side-by-side img {
+    width: 100%;
+}
+
+.heroVideo {
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 4rem;
+    font-size: 3rem;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%,  rgb(244, 225, 255) 100%);
+}
