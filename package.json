@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/idamadam/idamadam.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "stylelint": "^13.1.0",
+    "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
