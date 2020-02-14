@@ -19,12 +19,26 @@ header.green {
 }
 
 header section.brand {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 2rem;
-    color: #AAAAAA;
-    text-transform: lowercase;
     text-align: center;
+    grid-gap: 0;
+    font-size: 12px;
+}
+
+header section.brand h1 {
+    font-weight: 1000;
+}
+
+header section.brand p {
+    margin: 0;
+}
+
+header section.blurb {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 main {
@@ -38,7 +52,7 @@ main section {
 
 h1 {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 0;
     line-height: 0.9;
@@ -95,9 +109,14 @@ section.understand {
     text-align: center;
 }
 
+
+body.homepage .caption, header .caption {
+    text-align: left;
+}
+
+
 header .caption {
     color: #7e5c93;
-    text-align: left;
 }
 
 header.green .caption {
@@ -112,6 +131,7 @@ header.green .caption {
     #framerPrototype {
         padding-top: 1rem;
     }
+    
 }
 
 .insight { 
