@@ -1,197 +1,199 @@
 /* Base Styles - applicable to all pages */
 
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 html {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 17px;
-    color: #222222;
-    line-height: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 17px;
+  color: #222;
+  line-height: 1.5rem;
 }
 
 main {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 main section {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 h1 {
-    text-transform: uppercase;
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 0;
-    line-height: 0.9;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0;
+  line-height: 0.9;
 }
 
 .subhead {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-top: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 0.3rem;
 }
 
 .caption {
-    font-size: 0.8rem;
-    color: #9b9b9b;
-    margin-top: 0;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-/* Header styles */
-
-header {
-    background: #EEEEEE;
-    background: linear-gradient(180deg, rgb(244, 225, 255) 0%, rgba(255,255,255,1) 100%);
-}
-
-header.green {
-    background: linear-gradient(180deg, rgb(233, 255, 225) 0%, rgba(255,255,255,1) 100%);
-}
-
-header.cyan {
-    background: linear-gradient(180deg, rgb(225, 255, 245) 0%, rgb(255, 255, 255) 100%);
-}
-
-header .brand {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-    grid-gap: 0;
-    font-size: 12px;
-}
-
-header .brand h1 {
-    font-weight: 1000;
-}
-
-header .brand p {
-    margin: 0;
-}
-
-header .blurb {
-    max-width: 400px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-header .caption {
-    color: #7e5c93;
-}
-
-header.green .caption {
-    color: #3d6846
-}
-
-body.homepage .caption, header .caption {
-    text-align: left;
-}
-
-/* Footer styles */
-
-footer {
-    text-align: center;
-    padding: 4rem;
-    font-size: 3rem;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%,  rgb(244, 225, 255) 100%);
-}
-
-footer.green {
-    background: linear-gradient(0deg, rgb(233, 255, 225) 0%, rgba(255,255,255,1) 100%);
+  font-size: 0.8rem;
+  color: #9b9b9b;
+  margin-top: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* Title Styles */
 
 .title {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 0.5rem;
-    max-width: 600px;
-    align-items: center;
-    margin: 0 auto;
-    padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0.5rem;
+  max-width: 600px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .title img {
-    width: 100%;
+  width: 100%;
 }
 
 .title p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .title .subhead {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .title h1 {
-    font-size: 3rem;
-    margin-top: 0;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+/* Insight (in case studies) */
+
+.insight {
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  background: rgba(150, 150, 150, 0.1);
+  font-size: 110%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.insight h3 {
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.insight p {
+  margin-top: 0.2rem;
+}
+
+/* Header styles */
+
+header {
+  background: #eee;
+  background: linear-gradient(180deg, rgb(244, 225, 255) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+header.green {
+  background: linear-gradient(180deg, rgb(233, 255, 225) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+header.cyan {
+  background: linear-gradient(180deg, rgb(225, 255, 245) 0%, rgb(255, 255, 255) 100%);
+}
+
+header .brand {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  grid-gap: 0;
+  font-size: 12px;
+}
+
+header .brand h1 {
+  font-weight: 1000;
+}
+
+header .brand p {
+  margin: 0;
+}
+
+header .blurb {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header .caption {
+  color: #7e5c93;
+  text-align: left;
+}
+
+header.green .caption {
+  color: #3d6846;
+}
+
+body.homepage .caption {
+  text-align: left;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+  padding: 4rem;
+  font-size: 3rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(244, 225, 255) 100%);
+}
+
+footer.green {
+  background: linear-gradient(0deg, rgb(233, 255, 225) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 /* Section specific styles */
 
 section.understand {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
-    grid-gap: 3rem;
-    max-width: 800px;
-    margin: 3rem auto;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  grid-gap: 3rem;
+  max-width: 800px;
+  margin: 3rem auto;
+  align-items: center;
 }
 
 @media only screen and (min-width: 720px) {
-    section.understand div:nth-child(1) {
-        grid-column-end: span 2;
-    }
+  section.understand div:nth-child(1) {
+    grid-column-end: span 2;
+  }
 
-    #framerPrototype {
-        padding-top: 1rem;
-    }
-
-}
-
-/* Insight (in case studies) */
-
-.insight { 
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    background: rgba(150, 150, 150, 0.1);
-    font-size: 110%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.insight h3 {
-    margin-bottom: 0.2rem;
-    margin-top: 0.2rem;
-}
-
-.insight p {
-    margin-top: 0.2rem;
+  #framerPrototype {
+    padding-top: 1rem;
+  }
 }
 
 .vertical {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
 }
 
 .side-by-side {
-    display: grid;
-    max-width: none;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: grid;
+  max-width: none;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .side-by-side img {
-    width: 100%;
+  width: 100%;
 }
 
 .heroVideo {
-    max-width: 300px;
+  max-width: 300px;
 }
