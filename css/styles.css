@@ -186,7 +186,7 @@ footer.green {
 
 body.homepage {
   background: #C2D740;
-  background: linear-gradient(180deg, #40D7B3 0%, #C2D740 50%, #C2D740 100%);
+  background: linear-gradient(180deg, #40D7B3 0%, #C2D740 50%, #C2D740 100%) no-repeat center center fixed;
   color: #23283E;
 }
 
