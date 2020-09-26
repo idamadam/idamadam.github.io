@@ -1,5 +1,0 @@
-## Summary
-
-The reality of building something yourself is quite different to what I was expecting. It takes way more time than anticipated, and there’s a lot of ground to be covered. It’s not just as simple as creating some mockups, or writing some code. To achieve success, you need to have clarity on the problem you’re solving, who you’re solving it for and how badly these people need this problem to be solved. Without this foundation, it’s easy to spend time on building without thinking about the end problem in mind.
-
-Feedback cycles are also critical for building products. It’s easy to get caught up in building and lose sight of the end goal. Reducing the amount of time you spend between feedback cycles is an excellent way to have more confidence in your progress. Feedback doesn’t necessarily need to come from traditional user testing, even a sense check from people you trust might be good in some measures. The important thing is to ensure that your ideas and execution are being regularly tested.
