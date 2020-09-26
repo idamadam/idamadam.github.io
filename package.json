@@ -25,5 +25,8 @@
     "raw-loader": "^4.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27"
   }
 }
