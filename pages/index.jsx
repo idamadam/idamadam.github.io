@@ -1,29 +1,32 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+
 import Head from "next/head";
 
 function PageHeader() {
   return (
     <header>
-      <section class="brand">
+      <section className="brand">
         <h1>Idam Adam</h1>
-        <p class="subhead">product designer</p>
+        <p className="subhead">product designer</p>
       </section>
-      <section class="blurb">
+      <section className="blurb">
         <p>
           Designing tools to help businesses succeed at{" "}
-          <a href="https://myob.com/" target="_blank">
+          <a href="https://myob.com/" target="_blank" rel="noreferrer">
             MYOB
           </a>
-          .<br />
+          .
+          <br />
           Prior experience includes{" "}
-          <a href="https://canstar.com.au/" target="_blank">
+          <a href="https://canstar.com.au/" target="_blank" rel="noreferrer">
             Canstar
           </a>
           ,{" "}
-          <a href="https://netengine.com.au/" target="_blank">
+          <a href="https://netengine.com.au/" target="_blank" rel="noreferrer">
             NetEngine
           </a>{" "}
           &amp;{" "}
-          <a href="https://qut.edu.au/" target="_blank">
+          <a href="https://qut.edu.au/" target="_blank" rel="noreferrer">
             QUT
           </a>
           .
@@ -37,19 +40,19 @@ function PageHeader() {
 function MainContent() {
   return (
     <main>
-      <section class="caseStudyWrapper">
+      <section className="caseStudyWrapper">
         <img src="/images/list.png" alt="Preview of the app" />
         <div>
           <a href="/invoicelist">
-            <h3>Getting SME's paid faster</h3>
-            <p class="subhead">Invoice list</p>
+            <h3>Getting SME&apos;s paid faster</h3>
+            <p className="subhead">Invoice list</p>
           </a>
         </div>
         <img src="/images/track.png" alt="Preview of the app" />
         <div>
           <a href="/track">
             <h3>Track time on the go</h3>
-            <p class="subhead">Time Tracking for AccountRight</p>
+            <p className="subhead">Time Tracking for AccountRight</p>
           </a>
         </div>
       </section>
@@ -59,12 +62,15 @@ function MainContent() {
 
 function HomePage() {
   return (
-    <body class="homepage">
+    <body className="homepage">
       <Head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
         <link rel="stylesheet" href="/css/styles.css" />
         <title>Idam Adam</title>
       </Head>
