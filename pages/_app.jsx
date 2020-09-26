@@ -1,8 +1,10 @@
-import 'normalize.css/normalize.css';
-import '../shared/fonts/font.css';
+/* eslint-disable */
+
+import "normalize.css/normalize.css";
+import "../shared/fonts/font.css";
 
 function AppBase({ Component, pageProps }) {
-    return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default AppBase
+export default AppBase;
