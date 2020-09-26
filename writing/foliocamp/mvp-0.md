@@ -1,11 +1,9 @@
-## MVP 0
+## Initial idea & hypothesis
 
-To start, I needed to find out if people were interested the idea. I thought a content marketing approach could work, where I could write articles to generate traffic to a site where people could enter their emails in. If people submitted their emails, I could assume that there was some level of interest.
+To start, I had to find a problem space to start investigating. Product design portfolios seemed like a good fit as I was familiar with the problem, and I knew plenty of other designers who I might speak to get their understanding. 
 
-The first thing I did was to look for a domain. This was when the idea started to feel real, something about putting a URL to a project can be very satisfying. 
+My initial hypothesis was that people don't take enough notes to keep track of their projects and help them create their portfolio. Based on this hypothesis, I went out and interviewed a couple of Product Designers. I found that there wasn't a problem with notes as they had developed ways to keep record of the work that they did.
 
-In the spirit of being lean, instead of coding up a page, I just wrote some content on Notion & linked the domain to this page. You can still see the page I created [here](https://www.notion.so/idam/folio-camp-b64298f3a7ac43b1b6394a46e37fb9ef). I found that writing my thoughts sharpened them as I could get them out of my head & critically engage with them.
+Based on the first set of interviews, I decided on a second hypothesis. This hypothesis was around the portfolio creation process. That compiling a portfolio is a painful, time intensive exercise.
 
-(img)
-
-There was a bit of a danger in this too. While creating is really fun to do, I found that I was really caught up in making something rather than thinking about it strategically. The outcome of this phase was that I had some content created, but didn’t end up sharing the page.
+This hypothesis gave me the product idea of creating a time-boxed virtual bootcamp to get their portfolios together. People would sign up, pay a nominal fee and commit to finishing their portfolio in a certain amount of time.
