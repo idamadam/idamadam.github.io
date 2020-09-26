@@ -6,4 +6,3 @@ function AppBase({ Component, pageProps }) {
 }
 
 export default AppBase
-  
