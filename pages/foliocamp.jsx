@@ -1,3 +1,3 @@
-import FolioCamp from "../writing/foliocamp";
+import FolioCamp from "../content/foliocamp";
 
 export default FolioCamp;
