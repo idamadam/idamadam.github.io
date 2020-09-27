@@ -20,8 +20,6 @@ const Subheading = ({ children = "Subheading" }) => (
   <h3
     css={{
       marginTop: 0,
-      fontFamily:
-        "ibm-plex-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
       fontWeight: 300,
       fontSize: "1.4em",
     }}
@@ -52,8 +50,7 @@ const FolioCamp = () => (
           color: #232323;
         }
         h1,
-        h2,
-        h3 {
+        h2 {
           font-family: "source-serif-pro", -apple-system, BlinkMacSystemFont,
             "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
             "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -61,7 +58,7 @@ const FolioCamp = () => (
         img {
           width: 100%;
           border-radius: 0.5em;
-          box-shadow: 0px 8px 8px rgba(35, 35, 35, 0.2);
+          box-shadow: 0px 8px 16px #ffddcc;
         }
       `}
     />
