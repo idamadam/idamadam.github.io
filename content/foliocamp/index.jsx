@@ -31,6 +31,8 @@ const FolioCamp = () => (
         }
         img {
           width: 100%;
+          border-radius: 0.5em;
+          box-shadow: 0px 8px 8px rgba(35, 35, 35, 0.2);
         }
       `}
     />
