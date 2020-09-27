@@ -1,5 +1,7 @@
+![Iterations of the landing page](images/foliocamp/foliocamp-hero.png)
+
 # Folio Camp
-Folio Camp was my first attempt at creating a functioning digital product. My preferred way to learn new skills is through side projects where I’ve dabbled with designing and building small prototypes. This time I wanted to build a fully featured product with the goal of getting people to use it.
+### Folio Camp was my first attempt at creating a functioning digital product. My preferred way to learn new skills is through side projects where I’ve dabbled with designing and building small prototypes. This time I wanted to build a fully featured product with the goal of getting people to use it.
 
 ## Initial idea & hypothesis
 
@@ -57,7 +59,6 @@ After a couple of months, I realised that I had gone down a technical rabbit hol
 
 Two people signed up and sent their link to get feedback on their portfolios. It was interesting to use what I had built to give feedback. Since the content of each portfolio varied (e.g. the content, the style, the writing), each piece of feedback would need to be unique to that person. The form I built didn't assist with this at all; it was a dumb form for someone to enter that data in. 
 
-### Learnings
 I wasn't doing anything to validate whether people wanted the product but just tinkering with what I built. I’ve learnt that I need to figure out how to distill the idea into the smallest testable kernel. It's easy to sink a large amount of time and effort into an idea and get caught up in the execution. The trick is to balance strategy and execution. Both are as important as each other and you can't lose sight of either.
 
 ## Summary
