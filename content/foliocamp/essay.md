@@ -1,13 +1,13 @@
 ![Iterations of the landing page](images/foliocamp/foliocamp-hero.png)
 
 # Folio Camp
-### Folio Camp was my first attempt at creating a functioning digital product. My preferred way to learn new skills is through side projects where I’ve dabbled with designing and building small prototypes. This time I wanted to build a fully featured product with the goal of getting people to use it.
+### Folio Camp was my first attempt at creating a functioning digital product. I’ve dabbled with designing and building small prototypes for my previous side projects. This time I wanted to build a fully featured product with the goal of getting people to use it.
 
 ## Initial idea & hypothesis
 
 To start, I had to find a problem space to start investigating. Product design portfolios seemed like a good fit as I was familiar with the problem, and I knew plenty of other designers who I might speak to get their understanding. 
 
-My initial hypothesis was that people don't take enough notes to keep track of their projects and help them create their portfolio. Based on this hypothesis, I went out and interviewed a couple of Product Designers. I found that there wasn't a problem with notes as they had developed ways to keep record of the work that they did.
+> My initial hypothesis was that people don't take enough notes to keep track of their projects and help them create their portfolio. I went out and interviewed a couple of Product Designers. I found that there wasn't a problem with notes as they had developed ways to keep record of the work that they did.
 
 Based on the first set of interviews, I decided on a second hypothesis. This hypothesis was around the portfolio creation process. That compiling a portfolio is a painful, time intensive exercise.
 
@@ -19,7 +19,7 @@ I realised that putting a group of strangers together for a couple of weeks to b
 
 To test this idea I created a landing page. I started with a quick mood board and derived a colour palette, typography styles and a logo.  From here, I designed a simple form to get people's emails signed up. 
 
-![Iterations of the landing page](images/foliocamp/landing-iterations.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC1ayuNi1iYx25T79Hs30G1%2FLanding-page%3Fnode-id%3D307%253A2&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 The HTML for the page was simple to set up but I needed a way to collect peoples’ emails. I used Mailchimp to send new signups an automatic email from me confirming that they were in.
 
@@ -31,11 +31,11 @@ The breakthrough moment for me was when a friend of mine put the link up in a Sl
 
 I diagrammed a rough flow where I'd be manually grouping people together and emailing them to say that they were successfully matched.
 
-![The first pass of the flow diagram](images/foliocamp/landing-flow.png)
+<iframe style="border:none;" width="100%" height="450" src="https://whimsical.com/embed/95tWsZNfkhUqUDorhSrj34"></iframe>
 
 I created a web app which spoke to my database and pulled the details of the users.
 
-![Mockups of the application I built](images/foliocamp/landing-mockups.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkfO08deGliQAGqNwrTNdQ7%2FMVP-Flow%3Fnode-id%3D180%253A1868&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 After doing this work I sent out emails to a couple of cohorts but I quickly found out that people don’t open their emails. From the people who opened their emails, I found that no one submitted any feedback. Timing may have been an issue since I sent the emails around Christmas/New Year and people could've been with their families. 
 
@@ -57,7 +57,7 @@ If you’d like to try it out for yourself, visit [folio.camp](https://folio.cam
 
 After a couple of months, I realised that I had gone down a technical rabbit hole and needed to get the product in front of people again. I asked friends for their help and they quickly got people who'd be interested in using the product.  
 
-Two people signed up and sent their link to get feedback on their portfolios. It was interesting to use what I had built to give feedback. Since the content of each portfolio varied (e.g. the content, the style, the writing), each piece of feedback would need to be unique to that person. The form I built didn't assist with this at all; it was a dumb form for someone to enter that data in. 
+> Two people signed up and sent their link to get feedback on their portfolios. It was interesting to use what I had built to give feedback. Since the content of each portfolio varied (e.g. the content, the style, the writing), each piece of feedback would need to be unique to that person. The form I built didn't assist with this at all; it was a dumb form for someone to enter that data in. 
 
 I wasn't doing anything to validate whether people wanted the product but just tinkering with what I built. I’ve learnt that I need to figure out how to distill the idea into the smallest testable kernel. It's easy to sink a large amount of time and effort into an idea and get caught up in the execution. The trick is to balance strategy and execution. Both are as important as each other and you can't lose sight of either.
 

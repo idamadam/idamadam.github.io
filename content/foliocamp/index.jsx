@@ -4,36 +4,30 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 
 import Header from "../../shared/components/Header";
+import Title from "../../shared/components/Title";
+import Subheading from "../../shared/components/Subheading";
 import essay from "./essay.md";
 
-const Title = ({ children = "Title" }) => (
-  <h1 css={{ fontSize: "3.6em", marginBottom: "0.5em", lineHeight: 0.8 }}>
-    {children}
-  </h1>
-);
-
-Title.propTypes = {
-  children: PropTypes.node,
-};
-
-const Subheading = ({ children = "Subheading" }) => (
-  <h3
+const Blockquote = ({ children }) => (
+  <p
     css={{
-      marginTop: 0,
-      fontWeight: 300,
-      fontSize: "1.4em",
+      backgroundColor: "#FFF8F2",
+      padding: "1.5em",
+      margin: "1em 0",
+      borderRadius: "0.5em",
+      fontSize: "1.1em",
     }}
   >
     {children}
-  </h3>
+  </p>
 );
 
-Subheading.propTypes = {
+Blockquote.propTypes = {
   children: PropTypes.node,
 };
 
 const FolioCamp = () => (
-  <div css={{ maxWidth: "720px", margin: "0 auto", padding: "2em" }}>
+  <div>
     <Head>
       <title>Idam Adam | Folio Camp</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -63,9 +57,19 @@ const FolioCamp = () => (
       `}
     />
     <Header />
-    <Markdown options={{ overrides: { h1: Title, h3: Subheading } }}>
-      {essay}
-    </Markdown>
+    <div css={{ maxWidth: "720px", margin: "0 auto", padding: "2em" }}>
+      <Markdown
+        options={{
+          overrides: {
+            h1: Title,
+            h3: Subheading,
+            blockquote: Blockquote,
+          },
+        }}
+      >
+        {essay}
+      </Markdown>
+    </div>
   </div>
 );
 
