@@ -1,11 +1,30 @@
 import Markdown from "markdown-to-jsx";
 import { Global, css } from "@emotion/core";
 import Head from "next/head";
+import PropTypes from "prop-types";
 
 import Header from "../../shared/components/Header";
 import Title from "../../shared/components/Title";
 import Subheading from "../../shared/components/Subheading";
 import essay from "./essay.md";
+
+const Blockquote = ({ children }) => (
+  <p
+    css={{
+      backgroundColor: "#FFF8F2",
+      padding: "1.5em",
+      margin: "1em 0",
+      borderRadius: "0.5em",
+      fontSize: "1.1em",
+    }}
+  >
+    {children}
+  </p>
+);
+
+Blockquote.propTypes = {
+  children: PropTypes.node,
+};
 
 const FolioCamp = () => (
   <div>
@@ -39,7 +58,15 @@ const FolioCamp = () => (
     />
     <Header />
     <div css={{ maxWidth: "720px", margin: "0 auto", padding: "2em" }}>
-      <Markdown options={{ overrides: { h1: Title, h3: Subheading } }}>
+      <Markdown
+        options={{
+          overrides: {
+            h1: Title,
+            h3: Subheading,
+            blockquote: Blockquote,
+          },
+        }}
+      >
         {essay}
       </Markdown>
     </div>

@@ -7,7 +7,7 @@
 
 To start, I had to find a problem space to start investigating. Product design portfolios seemed like a good fit as I was familiar with the problem, and I knew plenty of other designers who I might speak to get their understanding. 
 
-My initial hypothesis was that people don't take enough notes to keep track of their projects and help them create their portfolio. Based on this hypothesis, I went out and interviewed a couple of Product Designers. I found that there wasn't a problem with notes as they had developed ways to keep record of the work that they did.
+> My initial hypothesis was that people don't take enough notes to keep track of their projects and help them create their portfolio. I went out and interviewed a couple of Product Designers. I found that there wasn't a problem with notes as they had developed ways to keep record of the work that they did.
 
 Based on the first set of interviews, I decided on a second hypothesis. This hypothesis was around the portfolio creation process. That compiling a portfolio is a painful, time intensive exercise.
 
@@ -57,7 +57,7 @@ If you’d like to try it out for yourself, visit [folio.camp](https://folio.cam
 
 After a couple of months, I realised that I had gone down a technical rabbit hole and needed to get the product in front of people again. I asked friends for their help and they quickly got people who'd be interested in using the product.  
 
-Two people signed up and sent their link to get feedback on their portfolios. It was interesting to use what I had built to give feedback. Since the content of each portfolio varied (e.g. the content, the style, the writing), each piece of feedback would need to be unique to that person. The form I built didn't assist with this at all; it was a dumb form for someone to enter that data in. 
+> Two people signed up and sent their link to get feedback on their portfolios. It was interesting to use what I had built to give feedback. Since the content of each portfolio varied (e.g. the content, the style, the writing), each piece of feedback would need to be unique to that person. The form I built didn't assist with this at all; it was a dumb form for someone to enter that data in. 
 
 I wasn't doing anything to validate whether people wanted the product but just tinkering with what I built. I’ve learnt that I need to figure out how to distill the idea into the smallest testable kernel. It's easy to sink a large amount of time and effort into an idea and get caught up in the execution. The trick is to balance strategy and execution. Both are as important as each other and you can't lose sight of either.
 
