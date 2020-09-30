@@ -19,7 +19,7 @@ I realised that putting a group of strangers together for a couple of weeks to b
 
 To test this idea I created a landing page. I started with a quick mood board and derived a colour palette, typography styles and a logo.  From here, I designed a simple form to get people's emails signed up. 
 
-![Iterations of the landing page](images/foliocamp/landing-iterations.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC1ayuNi1iYx25T79Hs30G1%2FLanding-page%3Fnode-id%3D307%253A2&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 The HTML for the page was simple to set up but I needed a way to collect peoples’ emails. I used Mailchimp to send new signups an automatic email from me confirming that they were in.
 
@@ -31,11 +31,11 @@ The breakthrough moment for me was when a friend of mine put the link up in a Sl
 
 I diagrammed a rough flow where I'd be manually grouping people together and emailing them to say that they were successfully matched.
 
-![The first pass of the flow diagram](images/foliocamp/landing-flow.png)
+<iframe style="border:none;" width="100%" height="450" src="https://whimsical.com/embed/95tWsZNfkhUqUDorhSrj34"></iframe>
 
 I created a web app which spoke to my database and pulled the details of the users.
 
-![Mockups of the application I built](images/foliocamp/landing-mockups.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FkfO08deGliQAGqNwrTNdQ7%2FMVP-Flow%3Fnode-id%3D180%253A1868&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 After doing this work I sent out emails to a couple of cohorts but I quickly found out that people don’t open their emails. From the people who opened their emails, I found that no one submitted any feedback. Timing may have been an issue since I sent the emails around Christmas/New Year and people could've been with their families. 
 
