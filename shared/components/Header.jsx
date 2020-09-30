@@ -4,10 +4,11 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div>
+    <div css={{ padding: "1em", maxWidth: "1080px", margin: "0 auto" }}>
       <Link href="/" passHref>
         <a
           css={{
+            fontSize: "1em",
             textDecoration: "none",
             "&:hover": {
               textDecoration: "underline",
