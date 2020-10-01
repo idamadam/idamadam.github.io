@@ -262,6 +262,16 @@ section.caseStudyWrapper a {
 
 }
 
+@media only screen and (max-width: 512px) {
+  .caseStudyWrapper div {
+    padding: 0 2rem;
+  }
+
+  .caseStudyWrapper div a h3 {
+    margin-top: 0;
+  }
+}
+
 @media only screen and (min-width:512px) {
   .caseStudyWrapper {
     max-width: 1000px;
