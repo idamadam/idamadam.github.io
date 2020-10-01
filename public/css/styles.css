@@ -4,7 +4,7 @@
   font-family: 'noe-display';
   font-style: bold;
   font-weight: 700;
-  src: url('noe-display-bold.woff') format('woff');
+  src: url('noe-display-bold.woff2') format('woff2');
 }
 
 /* Base Styles - applicable to all pages */
@@ -36,7 +36,7 @@ h1 {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: 900;
-  margin-bottom: 0;
+  margin-bottom: 4px !important;
   line-height: 0.9;
 }
 
@@ -82,6 +82,7 @@ img {
 .title h1 {
   font-size: 3rem;
   margin-top: 0;
+  margin-bottom: 8px;
 }
 
 /* Insight (in case studies) */
@@ -138,6 +139,7 @@ header .brand h1 {
   font-size: 1.75rem;
   font-family: noe-display;
   text-transform: none;
+  margin-bottom: 8px;
 }
 
 header .brand p {
@@ -258,6 +260,16 @@ section.caseStudyWrapper a {
     order: 1
   }
 
+}
+
+@media only screen and (max-width: 512px) {
+  .caseStudyWrapper div {
+    padding: 0 2rem;
+  }
+
+  .caseStudyWrapper div a h3 {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width:512px) {
