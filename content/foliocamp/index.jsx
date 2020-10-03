@@ -9,7 +9,7 @@ import Subheading from "../../shared/components/Subheading";
 import essay from "./essay.md";
 
 const Blockquote = ({ children }) => (
-  <p
+  <div
     css={{
       backgroundColor: "#FFF8F2",
       padding: "1.5em",
@@ -19,7 +19,7 @@ const Blockquote = ({ children }) => (
     }}
   >
     {children}
-  </p>
+  </div>
 );
 
 Blockquote.propTypes = {
