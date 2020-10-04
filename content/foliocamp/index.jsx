@@ -20,6 +20,7 @@ const FolioCamp = () => (
           font-family: ibm-plex-sans, -apple-system, BlinkMacSystemFont,
             "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
             "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          font-weight: 300;
           font-size: 18px;
           line-height: 1.5;
           background: #fff1e5;
