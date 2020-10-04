@@ -7,6 +7,14 @@
 }
 
 @font-face {
+  font-family: 'ibm-plex-sans';
+  font-style: medium;
+  font-weight: 500;
+  src: url('ibm-plex-sans/woff2/IBMPlexSans-Medium.woff2') format('woff2'),
+       url('ibm-plex-sans/woff/IBMPlexSans-Medium.woff') format('woff');
+}
+
+@font-face {
   font-family: 'source-serif-pro';
   font-style: normal;
   font-weight: 300;
