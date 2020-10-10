@@ -1,6 +1,8 @@
 ---
 title: Invoice List
 ---
+![Mobile phone with a list of invoices](/images/invoicelist/list-hero.png)
+
 # Getting SME's paid faster
 ### Invoice list
 
