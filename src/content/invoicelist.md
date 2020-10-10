@@ -16,10 +16,25 @@ I was responsible as a Product Designer for this project. Together with a develo
 
 The first aim was to ship something that would let a customer view all the bills they had outstanding. I used our data to understand how large the list would be, and used this to construct some wireframes of how the screen would look. This process was aided by the use of the MYOB Design system → Feelix.
 
+![Desktop wireframe](/images/invoicelist/wireframe-desktop.png)
+![Mobile wireframe](/images/invoicelist/wireframe-mobile.png)
+![Mobile wireframe with Dates](/images/invoicelist/wireframe-mobile-date.png)
+
 Whilst the screen was fairly simple, the complications came from how people actually got to this screen and the privacy considerations that came with being able to view the history of . Since our focus was getting our customers paid faster, we decided to include a link in all invoices sent to our customers. We also had to keep privacy in mind as this would be confidential information to the business. With all of this in mind, I kept this first version quite simple as the team had to do a fair bit of work on the backend to allow the system to list all the invoices for one customer.
+
+![Desktop](/images/invoicelist/v1-desktop.png)
+![Mobile](/images/invoicelist/v1-mobile.png)
 
 ## Multiple payment - allow them to pay in one go
 
 This approach allowed us to deliver value to our customers quickly, and get learnings from it quickly. The next logical step in the list was to allow people to pay them all in one go. For this iteration, I again heavily used the MYOB Design system to ensure that customers of our clients were getting a payment page that was as similar to the invoice payment page that they were used to.
 
+<video width="100%" controls>
+    <source src="/images/invoicelist/multipay-prototype.mp4" />
+</video>
+Recording of a prototype demonstrating the behaviour
+
 Since the success of this project was very much tied to how many people actually paid through this page, I was really keen to ensure that the users of this page were getting a similar experience to the invoice payment page they already were looking at. To ensure this consistency, I re-used as much of the individual invoice page. This was one of those projects where it may seem very simple in the front-end but there was a lot being done in the backend.
+
+![Desktop](/images/invoicelist/v2-desktop.png)
+![Mobile](/images/invoicelist/v2-mobile.png)
