@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "browser",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "pathMappings": [
+                {
+                    "url": "webpack://_n_e/pages",
+                    "path": "${workspaceFolder}/pages"
+                }
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "server",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "dev",
+                "--inspect"
+            ],
+            "port": 9229,
+            "console": "integratedTerminal"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch program",
+            "configurations": ["server", "browser"]
+        }
+    ]
+}
