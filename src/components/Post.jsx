@@ -6,6 +6,7 @@ import Header from "./Header";
 import Title from "./Title";
 import Subheading from "./Subheading";
 import Blockquote from "./Blockquote";
+import ImageGrid from "./ImageGrid";
 
 function Post({ title = "", content = "Hello" }) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
@@ -21,6 +22,7 @@ function Post({ title = "", content = "Hello" }) {
       h1: Title,
       h3: Subheading,
       blockquote: Blockquote,
+      ImageGrid,
     },
   };
 
