@@ -3,13 +3,13 @@ import path from "path";
 import matter from "gray-matter";
 import PropTypes from "prop-types";
 
-import CaseStudy from "../../shared/components/CaseStudy";
+import Post from "../../shared/components/Post";
 
-export default function Post({ content, title }) {
-  return <CaseStudy content={content} title={title} />;
+export default function ContentPage({ content, title }) {
+  return <Post content={content} title={title} />;
 }
 
-Post.propTypes = {
+ContentPage.propTypes = {
   content: PropTypes.string,
   title: PropTypes.string,
 };
