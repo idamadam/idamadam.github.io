@@ -1,4 +1,8 @@
-![Iterations of the landing page](images/foliocamp/foliocamp-hero.png)
+---
+title: Folio Camp
+---
+
+![Iterations of the landing page](/images/foliocamp/foliocamp-hero.png)
 
 # Folio Camp
 ### Folio Camp was my first attempt at creating a functioning digital product. I’ve dabbled with designing and building small prototypes for my previous side projects. This time I wanted to build a fully featured product with the goal of getting people to use it.
@@ -23,7 +27,7 @@ To test this idea I created a landing page. I started with a quick mood board an
 
 The HTML for the page was simple to set up but I needed a way to collect peoples’ emails. I used Mailchimp to send new signups an automatic email from me confirming that they were in.
 
-![The email I sent](images/foliocamp/landing-email.png)
+![The email I sent](/images/foliocamp/landing-email.png)
 
 Now that the page was built, I needed emails! I asked a couple of friends if they'd be keen and got a couple of emails but it was slow going.
 
