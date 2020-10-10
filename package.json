@@ -25,7 +25,7 @@
     "@emotion/core": "^10.0.35",
     "gray-matter": "^4.0.2",
     "markdown-to-jsx": "^6.11.4",
-    "next": "^9.5.2",
+    "next": "^9.5.5",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "raw-loader": "^4.0.1",
