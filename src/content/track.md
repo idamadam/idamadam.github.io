@@ -1,6 +1,8 @@
 ---
 title: Time Tracking for AccountRight
 ---
+![Mobile phone with timer screen](/images/timetracking/hero.png)
+
 # Track time on the go
 ### Time tracking for AccountRight
 
@@ -18,6 +20,11 @@ As this was to be a companion app to the MYOB desktop product, I mapped out the 
 
 Based on this information, I first started with an extremely rough prototype using Framer. I used the prototype to spark conversations with our developers to understand what was possible. The prototype included lots of nods to features that I wanted to understand could be possible.
 
+<video width="100%" controls autoPlay>
+    <source src="/images/timetracking/framer-prototype-white-bg.mp4" />
+</video>
+The framer prototype
+
 The developers took this prototype and built out the flows using it as a guide. This allowed us to move fast and get a rough version of the app built out so that we could play with real software as quickly as possible.
 
 ## Validate previous work & sharpen knowledge of problem space
@@ -29,6 +36,12 @@ We took this first cut of the software to one of our customers to understand how
 The conversations we had with our users also allowed us to understand what the key workflows were within the app and to identify future opportunities. For example, we began to understand that an equivalent of the app was a diary for someone's workday.
 
 I made improvements to the existing flow by collating all the feedback. For example, we found that users preferred to enter information in their own way as opposed to entering it in a sequential flow. 
+
+![Before - Sequential flow](/images/timetracking/flow-before.png)
+Before - Sequential flow
+
+![After - Sequential flow](/images/timetracking/flow-after.png)
+After - Choose your own adventure
 
 We were able to get a version of the app that we felt comfortable in releasing to our first wave of beta testers due to this feedback cycle. In addition to the workflows we changed as part of the feedback rounds, we set up the help and feedback portals for the beta process. This helped us later in the process to scale our feedback gathering to improve the product.
 
@@ -43,3 +56,9 @@ Based on the feedback, we added features, fixed many small bugs and workflow iss
 To aid development of other apps within the company, I also worked with designers at MYOB to establish a common mobile design system to be used across different MYOB mobile apps.
 
 N.B. Time Tracking has since been renamed to Invoicing for AccountRight.
+
+<video width="100%" controls>
+    <source src="/images/timetracking/final_app.mp4" />
+</video>
+
+The final product
