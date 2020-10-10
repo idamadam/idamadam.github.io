@@ -44,8 +44,8 @@ function CaseStudy({ title = "", content = "Hello" }) {
       <Head>
         <title>{pageTitle}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <GlobalCSS />
       </Head>
+      <GlobalCSS />
       <Header />
       <div css={{ maxWidth: "720px", margin: "0 auto", padding: "2em" }}>
         <Markdown
