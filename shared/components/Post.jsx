@@ -1,8 +1,7 @@
 import Markdown from "markdown-to-jsx";
-import Head from "next/head";
 import PropTypes from "prop-types";
 
-import GlobalCSS from "./GlobalCss";
+import PageHead from "./PageHead";
 import Header from "./Header";
 import Title from "./Title";
 import Subheading from "./Subheading";
@@ -11,26 +10,26 @@ import Blockquote from "./Blockquote";
 function Post({ title = "", content = "Hello" }) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
 
+  const contentBodyStyle = {
+    maxWidth: "720px",
+    margin: "0 auto",
+    padding: "2em",
+  };
+
+  const markdownOptions = {
+    overrides: {
+      h1: Title,
+      h3: Subheading,
+      blockquote: Blockquote,
+    },
+  };
+
   return (
     <div>
-      <Head>
-        <title>{pageTitle}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <GlobalCSS />
+      <PageHead title={pageTitle} />
       <Header />
-      <div css={{ maxWidth: "720px", margin: "0 auto", padding: "2em" }}>
-        <Markdown
-          options={{
-            overrides: {
-              h1: Title,
-              h3: Subheading,
-              blockquote: Blockquote,
-            },
-          }}
-        >
-          {content}
-        </Markdown>
+      <div css={contentBodyStyle}>
+        <Markdown options={markdownOptions}>{content}</Markdown>
       </div>
     </div>
   );
