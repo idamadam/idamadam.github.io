@@ -15,7 +15,7 @@ const globalStyles = {
     color: "#232323",
   },
   "h1,h2": {
-    fontFamily: `source-serif-pro", ${nativeFonts}`,
+    fontFamily: `source-serif-pro, ${nativeFonts}`,
   },
   img: {
     width: "100%",
