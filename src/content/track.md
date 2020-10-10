@@ -20,7 +20,7 @@ As this was to be a companion app to the MYOB desktop product, I mapped out the 
 
 Based on this information, I first started with an extremely rough prototype using Framer. I used the prototype to spark conversations with our developers to understand what was possible. The prototype included lots of nods to features that I wanted to understand could be possible.
 
-<video width="100%" controls autoPlay>
+<video width="100%" style="maxWidth: 320px; margin: 0 auto; display: block;" controls autoPlay>
     <source src="/images/timetracking/framer-prototype-white-bg.mp4" />
 </video>
 The framer prototype
@@ -57,7 +57,7 @@ To aid development of other apps within the company, I also worked with designer
 
 N.B. Time Tracking has since been renamed to Invoicing for AccountRight.
 
-<video width="100%" controls>
+<video width="100%" controls style="maxWidth: 320px; margin: 0 auto; display: block;">
     <source src="/images/timetracking/final_app.mp4" />
 </video>
 
