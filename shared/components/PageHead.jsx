@@ -1,34 +1,28 @@
 import Head from "next/head";
 import PropTypes from "prop-types";
-import { Global, css } from "@emotion/core";
+import { Global } from "@emotion/core";
 
-const GlobalCSS = () => (
-  <Global
-    styles={css`
-      body {
-        font-family: ibm-plex-sans, -apple-system, BlinkMacSystemFont,
-          "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol";
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 1.5;
-        background: #fff1e5;
-        color: #232323;
-      }
-      h1,
-      h2 {
-        font-family: "source-serif-pro", -apple-system, BlinkMacSystemFont,
-          "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol";
-      }
-      img {
-        width: 100%;
-        border-radius: 0.5em;
-        box-shadow: 0px 8px 16px #ffddcc;
-      }
-    `}
-  />
-);
+const nativeFonts =
+  '-apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+
+const globalStyles = {
+  body: {
+    fontFamily: `ibm-plex-sans, ${nativeFonts}`,
+    fontWeight: 300,
+    fontSize: "18px",
+    lineHeight: 1.5,
+    background: "#fff1e5",
+    color: "#232323",
+  },
+  "h1,h2": {
+    fontFamily: `source-serif-pro", ${nativeFonts}`,
+  },
+  img: {
+    width: "100%",
+    borderRadius: "0.5em",
+    boxShadow: "0px 8px 16px #ffddcc",
+  },
+};
 
 const PageHead = ({ title = "Idam Adam" }) => (
   <div>
@@ -36,7 +30,7 @@ const PageHead = ({ title = "Idam Adam" }) => (
       <title>{title}</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <GlobalCSS />
+    <Global styles={globalStyles} />
   </div>
 );
 
