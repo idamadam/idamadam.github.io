@@ -1,3 +1,7 @@
+---
+title: Folio Camp
+---
+
 ![Iterations of the landing page](/images/foliocamp/foliocamp-hero.png)
 
 # Folio Camp

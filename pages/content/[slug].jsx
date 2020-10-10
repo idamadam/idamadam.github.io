@@ -1,15 +1,17 @@
 import fs from "fs";
 import path from "path";
+import matter from "gray-matter";
 import PropTypes from "prop-types";
 
 import CaseStudy from "../../shared/components/CaseStudy";
 
-export default function Post({ content }) {
-  return <CaseStudy content={content} />;
+export default function Post({ content, title }) {
+  return <CaseStudy content={content} title={title} />;
 }
 
 Post.propTypes = {
   content: PropTypes.string,
+  title: PropTypes.string,
 };
 
 export async function getStaticPaths() {
@@ -28,13 +30,16 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const markdown = fs
+  const rawMarkdown = fs
     .readFileSync(path.join("content", `${slug}.md`))
     .toString();
 
+  const { data, content } = matter(rawMarkdown);
+
   return {
     props: {
-      content: markdown,
+      title: data.title,
+      content,
     },
   };
 }
