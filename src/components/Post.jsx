@@ -12,9 +12,12 @@ function Post({ title = "", content = "Hello" }) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
 
   const contentBodyStyle = {
-    maxWidth: "720px",
-    margin: "0 auto",
     padding: "2em",
+    display: "grid",
+    gridTemplateColumns: "1fr min(65ch, 100%) 1fr",
+    "& > *": {
+      gridColumn: 2,
+    },
   };
 
   const markdownOptions = {
@@ -30,9 +33,9 @@ function Post({ title = "", content = "Hello" }) {
     <div>
       <PageHead title={pageTitle} />
       <Header />
-      <div css={contentBodyStyle}>
-        <Markdown options={markdownOptions}>{content}</Markdown>
-      </div>
+      <Markdown options={markdownOptions} css={contentBodyStyle}>
+        {content}
+      </Markdown>
     </div>
   );
 }
