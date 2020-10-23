@@ -7,6 +7,7 @@ import Subheading from "../Subheading";
 import Blockquote from "../Blockquote";
 import ImageGrid from "../ImageGrid";
 import Hero from "./Hero";
+import Image from "../Image";
 
 interface PostProps {
   title: string;
@@ -31,6 +32,7 @@ function Post({ title = "", content = "Hello", heroImages }: PostProps) {
       h1: Title,
       h3: Subheading,
       blockquote: Blockquote,
+      img: Image,
       ImageGrid,
     },
   };
