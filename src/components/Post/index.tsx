@@ -1,18 +1,20 @@
 import Markdown from "markdown-to-jsx";
 
-import PageHead from "./PageHead";
-import Header from "./Header";
-import Title from "./Title";
-import Subheading from "./Subheading";
-import Blockquote from "./Blockquote";
-import ImageGrid from "./ImageGrid";
+import PageHead from "../PageHead";
+import Header from "../Header";
+import Title from "../Title";
+import Subheading from "../Subheading";
+import Blockquote from "../Blockquote";
+import ImageGrid from "../ImageGrid";
+import Hero from "./Hero";
 
 interface PostProps {
   title: string;
   content: string;
+  heroImages: Array<string>;
 }
 
-function Post({ title = "", content = "Hello" }: PostProps) {
+function Post({ title = "", content = "Hello", heroImages }: PostProps) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
 
   const contentBodyStyle = {
@@ -37,9 +39,10 @@ function Post({ title = "", content = "Hello" }: PostProps) {
     <div>
       <PageHead title={pageTitle} />
       <Header />
-      <Markdown options={markdownOptions} css={contentBodyStyle}>
-        {content}
-      </Markdown>
+      <article css={contentBodyStyle}>
+        <Hero images={heroImages} />
+        <Markdown options={markdownOptions}>{content}</Markdown>
+      </article>
     </div>
   );
 }
