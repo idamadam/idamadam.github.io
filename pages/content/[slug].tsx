@@ -9,10 +9,15 @@ import Post from "../../src/components/Post";
 interface ContentPageProps {
   content: string;
   title: string;
+  heroImages: Array<string>;
 }
 
-export default function ContentPage({ content, title }: ContentPageProps) {
-  return <Post content={content} title={title} />;
+export default function ContentPage({
+  content,
+  title,
+  heroImages,
+}: ContentPageProps) {
+  return <Post content={content} title={title} heroImages={heroImages} />;
 }
 
 export async function getStaticPaths() {
@@ -46,6 +51,7 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
   return {
     props: {
       title: data.title as string,
+      heroImages: data.heroImages as Array<string>,
       content,
     },
   };
