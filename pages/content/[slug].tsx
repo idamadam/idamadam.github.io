@@ -1,18 +1,17 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import PropTypes from "prop-types";
 
 import Post from "../../src/components/Post";
 
-export default function ContentPage ({ content, title }) {
-  return <Post content={content} title={title} />;
+interface ContentPageProps {
+  content: string,
+  title: string
 }
 
-ContentPage.propTypes = {
-  content: PropTypes.string,
-  title: PropTypes.string,
-};
+export default function ContentPage ({ content, title }: ContentPageProps) {
+  return <Post content={content} title={title} />;
+}
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("src/content");

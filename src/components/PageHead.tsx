@@ -1,5 +1,4 @@
 import Head from "next/head";
-import PropTypes from "prop-types";
 import { Global } from "@emotion/core";
 
 const nativeFonts =
@@ -24,7 +23,11 @@ const globalStyles = {
   },
 };
 
-const PageHead = ({ title = "Idam Adam" }) => (
+interface PageHeadProps {
+  title: string
+}
+
+const PageHead = ({ title = "Idam Adam" } : PageHeadProps) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -33,9 +36,5 @@ const PageHead = ({ title = "Idam Adam" }) => (
     <Global styles={globalStyles} />
   </div>
 );
-
-PageHead.propTypes = {
-  title: PropTypes.string.isRequired,
-};
 
 export default PageHead;

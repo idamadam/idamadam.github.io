@@ -1,4 +1,4 @@
-const Blockquote: React.FunctionComponent = ({ children }) => (
+const Blockquote = ({ children }) => (
   <div
     css={{
       backgroundColor: "#FFF8F2",

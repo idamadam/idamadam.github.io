@@ -1,5 +1,4 @@
 import Markdown from "markdown-to-jsx";
-import PropTypes from "prop-types";
 
 import PageHead from "./PageHead";
 import Header from "./Header";
@@ -8,7 +7,12 @@ import Subheading from "./Subheading";
 import Blockquote from "./Blockquote";
 import ImageGrid from "./ImageGrid";
 
-function Post({ title = "", content = "Hello" }) {
+interface PostProps {
+  title: string,
+  content: string
+}
+
+function Post({ title = "Page Title", content = "Hello" } : PostProps ) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
 
   const contentBodyStyle = {
@@ -39,10 +43,5 @@ function Post({ title = "", content = "Hello" }) {
     </div>
   );
 }
-
-Post.propTypes = {
-  title: PropTypes.string,
-  content: PropTypes.string,
-};
 
 export default Post;
