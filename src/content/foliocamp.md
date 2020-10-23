@@ -1,8 +1,9 @@
 ---
 title: Folio Camp
+heroImages:
+  - image: /images/foliocamp/foliocamp-hero.png
+    alt: "Iterations of the landing page"
 ---
-
-![Iterations of the landing page](/images/foliocamp/foliocamp-hero.png)
 
 # Folio Camp
 ### Folio Camp was my first attempt at creating a functioning digital product. I’ve dabbled with designing and building small prototypes for my previous side projects. This time I wanted to build a fully featured product with the goal of getting people to use it.

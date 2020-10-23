@@ -12,20 +12,20 @@ import Image from "../Image";
 interface PostProps {
   title: string;
   content: string;
-  heroImages: Array<string>;
+  heroImages: Array<{ image: string; alt: string }>;
 }
+
+const contentBodyStyle = {
+  padding: "2em",
+  display: "grid",
+  gridTemplateColumns: "1fr min(65ch, 100%) 1fr",
+  "& > *": {
+    gridColumn: 2,
+  },
+};
 
 function Post({ title = "", content = "Hello", heroImages }: PostProps) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
-
-  const contentBodyStyle = {
-    padding: "2em",
-    display: "grid",
-    gridTemplateColumns: "1fr min(65ch, 100%) 1fr",
-    "& > *": {
-      gridColumn: 2,
-    },
-  };
 
   const markdownOptions = {
     overrides: {
@@ -41,9 +41,11 @@ function Post({ title = "", content = "Hello", heroImages }: PostProps) {
     <div>
       <PageHead title={pageTitle} />
       <Header />
-      <article css={contentBodyStyle}>
-        <Hero images={heroImages} />
-        <Markdown options={markdownOptions}>{content}</Markdown>
+      <article>
+        <Hero images={heroImages} css={contentBodyStyle} />
+        <Markdown options={markdownOptions} css={contentBodyStyle}>
+          {content}
+        </Markdown>
       </article>
     </div>
   );

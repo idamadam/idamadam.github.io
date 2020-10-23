@@ -9,7 +9,7 @@ import Post from "../../src/components/Post";
 interface ContentPageProps {
   content: string;
   title: string;
-  heroImages: Array<string>;
+  heroImages: Array<{ image: string; alt: string }>;
 }
 
 export default function ContentPage({

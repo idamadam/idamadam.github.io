@@ -1,7 +1,13 @@
 ---
 title: Time Tracking for AccountRight
+heroImages:
+  - image: "/images/timetracking/hero-form.png"
+    alt: "Mobile phone with timer screen"
+  - image: "/images/timetracking/hero-timer.png"
+    alt: "Mobile phone with timer screen"
+  - image: "/images/timetracking/hero-list.png"
+    alt: "Mobile phone with timer screen"
 ---
-![Mobile phone with timer screen](/images/timetracking/hero.png)
 
 # Track time on the go
 ### Time tracking for AccountRight
@@ -39,8 +45,8 @@ The conversations we had with our users also allowed us to understand what the k
 
 I made improvements to the existing flow by collating all the feedback. For example, we found that users preferred to enter information in their own way as opposed to entering it in a sequential flow.
 
-<ImageGrid gridTemplateColumns="1fr 1fr" fullbleed> 
-    <img src="/images/timetracking/flow-before.png" alt="Before - Sequential flow" />
+<ImageGrid gridTemplateColumns="1fr 1fr" fullbleed shadow=false > 
+    <img src="/images/timetracking/flow-before.png" alt="Before - Sequential flow" shadow=false round=false />
     <img src="/images/timetracking/flow-after.png" alt="After - Sequential flow" />
 </ImageGrid>
 

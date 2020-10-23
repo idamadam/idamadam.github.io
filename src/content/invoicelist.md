@@ -1,7 +1,9 @@
 ---
 title: Invoice List
+heroImages:
+  - image: "/images/invoicelist/list-hero.png"
+    alt: "Mobile phone with a list of invoices"
 ---
-![Mobile phone with a list of invoices](/images/invoicelist/list-hero.png)
 
 # Getting SME's paid faster
 ### Invoice list
