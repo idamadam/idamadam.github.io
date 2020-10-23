@@ -1,8 +1,8 @@
 interface SubheadingProps {
-  children: string
+  children: string;
 }
 
-const Subheading = ({ children = "Subheading" } : SubheadingProps ) => (
+const Subheading = ({ children = "Subheading" }: SubheadingProps) => (
   <h3
     css={{
       marginTop: 0,

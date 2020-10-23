@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/require-await */
+
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -5,11 +7,11 @@ import matter from "gray-matter";
 import Post from "../../src/components/Post";
 
 interface ContentPageProps {
-  content: string,
-  title: string
+  content: string;
+  title: string;
 }
 
-export default function ContentPage ({ content, title }: ContentPageProps) {
+export default function ContentPage({ content, title }: ContentPageProps) {
   return <Post content={content} title={title} />;
 }
 
@@ -28,7 +30,13 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }) {
+interface StaticProps {
+  params: {
+    slug: string;
+  };
+}
+
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const rawMarkdown = fs
     .readFileSync(path.join("src/content", `${slug}.md`))
     .toString();
@@ -37,7 +45,7 @@ export async function getStaticProps({ params: { slug } }) {
 
   return {
     props: {
-      title: data.title,
+      title: data.title as string,
       content,
     },
   };

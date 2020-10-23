@@ -1,4 +1,8 @@
-const Blockquote = ({ children }) => (
+interface BlockquoteProps {
+  children: React.ReactNode;
+}
+
+const Blockquote = ({ children }: BlockquoteProps) => (
   <div
     css={{
       backgroundColor: "#FFF8F2",

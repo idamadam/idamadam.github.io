@@ -8,11 +8,11 @@ import Blockquote from "./Blockquote";
 import ImageGrid from "./ImageGrid";
 
 interface PostProps {
-  title: string,
-  content: string
+  title: string;
+  content: string;
 }
 
-function Post({ title = "Page Title", content = "Hello" } : PostProps ) {
+function Post({ title = "", content = "Hello" }: PostProps) {
   const pageTitle = `Idam Adam ${title ? `| ${title}` : ""}`;
 
   const contentBodyStyle = {

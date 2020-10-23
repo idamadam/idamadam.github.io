@@ -1,8 +1,8 @@
 interface ImageGridProps {
-  children: React.ReactNode,
-  gridTemplateColumns?: string,
-  gridTemplateRows?: string,
-  fullbleed?: boolean
+  children: React.ReactNode;
+  gridTemplateColumns?: string;
+  gridTemplateRows?: string;
+  fullbleed?: boolean;
 }
 
 function ImageGrid({

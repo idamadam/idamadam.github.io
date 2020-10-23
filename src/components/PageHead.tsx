@@ -24,10 +24,10 @@ const globalStyles = {
 };
 
 interface PageHeadProps {
-  title: string
+  title: string;
 }
 
-const PageHead = ({ title = "Idam Adam" } : PageHeadProps) => (
+const PageHead = ({ title = "Idam Adam" }: PageHeadProps) => (
   <div>
     <Head>
       <title>{title}</title>
