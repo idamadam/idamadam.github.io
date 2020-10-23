@@ -1,6 +1,8 @@
-import PropTypes from "prop-types";
+interface SubheadingProps {
+  children: string;
+}
 
-const Subheading = ({ children = "Subheading" }) => (
+const Subheading = ({ children = "Subheading" }: SubheadingProps) => (
   <h3
     css={{
       marginTop: 0,
@@ -11,9 +13,5 @@ const Subheading = ({ children = "Subheading" }) => (
     {children}
   </h3>
 );
-
-Subheading.propTypes = {
-  children: PropTypes.node,
-};
 
 export default Subheading;

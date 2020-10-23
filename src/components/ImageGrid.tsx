@@ -1,11 +1,16 @@
-import PropTypes from "prop-types";
+interface ImageGridProps {
+  children: React.ReactNode;
+  gridTemplateColumns?: string;
+  gridTemplateRows?: string;
+  fullbleed?: boolean;
+}
 
 function ImageGrid({
   children,
   gridTemplateColumns = "repeat(auto-fill, minmax(200px, 1fr))",
   gridTemplateRows = "1fr",
   fullbleed = false,
-}) {
+}: ImageGridProps) {
   const style = {
     display: "grid",
     gridGap: "1em",
@@ -16,12 +21,5 @@ function ImageGrid({
 
   return <div css={style}>{children}</div>;
 }
-
-ImageGrid.propTypes = {
-  children: PropTypes.node.isRequired,
-  gridTemplateColumns: PropTypes.string,
-  gridTemplateRows: PropTypes.string,
-  fullbleed: PropTypes.bool,
-};
 
 export default ImageGrid;

@@ -1,6 +1,8 @@
-import PropTypes from "prop-types";
+interface BlockquoteProps {
+  children: React.ReactNode;
+}
 
-const Blockquote = ({ children }) => (
+const Blockquote = ({ children }: BlockquoteProps) => (
   <div
     css={{
       backgroundColor: "#FFF8F2",
@@ -13,9 +15,5 @@ const Blockquote = ({ children }) => (
     {children}
   </div>
 );
-
-Blockquote.propTypes = {
-  children: PropTypes.node,
-};
 
 export default Blockquote;

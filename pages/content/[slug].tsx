@@ -1,18 +1,19 @@
+/* eslint-disable @typescript-eslint/require-await */
+
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import PropTypes from "prop-types";
 
 import Post from "../../src/components/Post";
 
-export default function ContentPage({ content, title }) {
-  return <Post content={content} title={title} />;
+interface ContentPageProps {
+  content: string;
+  title: string;
 }
 
-ContentPage.propTypes = {
-  content: PropTypes.string,
-  title: PropTypes.string,
-};
+export default function ContentPage({ content, title }: ContentPageProps) {
+  return <Post content={content} title={title} />;
+}
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("src/content");
@@ -29,7 +30,13 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }) {
+interface StaticProps {
+  params: {
+    slug: string;
+  };
+}
+
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const rawMarkdown = fs
     .readFileSync(path.join("src/content", `${slug}.md`))
     .toString();
@@ -38,7 +45,7 @@ export async function getStaticProps({ params: { slug } }) {
 
   return {
     props: {
-      title: data.title,
+      title: data.title as string,
       content,
     },
   };
