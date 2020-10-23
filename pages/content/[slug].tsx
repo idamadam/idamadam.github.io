@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 import Post from "../../src/components/Post";
 
-export default function ContentPage({ content, title }) {
+export default function ContentPage ({ content, title }) {
   return <Post content={content} title={title} />;
 }
 

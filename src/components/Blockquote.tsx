@@ -1,6 +1,4 @@
-import PropTypes from "prop-types";
-
-const Blockquote = ({ children }) => (
+const Blockquote: React.FunctionComponent = ({ children }) => (
   <div
     css={{
       backgroundColor: "#FFF8F2",
@@ -13,9 +11,5 @@ const Blockquote = ({ children }) => (
     {children}
   </div>
 );
-
-Blockquote.propTypes = {
-  children: PropTypes.node,
-};
 
 export default Blockquote;
