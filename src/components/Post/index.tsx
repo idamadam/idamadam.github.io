@@ -3,10 +3,10 @@ import Markdown from "markdown-to-jsx";
 import PageHead from "../PageHead";
 import Header from "../Header";
 import { H1, H3 } from "../../fonts";
-import Blockquote from "../Blockquote";
+import Blockquote from "./Blockquote";
 import ImageGrid from "../ImageGrid";
 import Hero from "./Hero";
-import Image from "../Image";
+import Image from "./Image";
 
 interface PostProps {
   title: string;
