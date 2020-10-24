@@ -1,7 +1,11 @@
 ---
 title: Invoice List
 heroImages:
-  - image: "/images/invoicelist/list-hero.png"
+  - image: "/images/invoicelist/wireframe-mobile-date.png"
+    alt: "Mobile phone with a list of invoices"
+  - image: "/images/invoicelist/v1-mobile.png"
+    alt: "Mobile phone with a list of invoices"
+  - image: "/images/invoicelist/v2-mobile.png"
     alt: "Mobile phone with a list of invoices"
 ---
 
