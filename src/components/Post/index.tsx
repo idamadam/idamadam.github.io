@@ -2,8 +2,7 @@ import Markdown from "markdown-to-jsx";
 
 import PageHead from "../PageHead";
 import Header from "../Header";
-import Title from "../Title";
-import Subheading from "../Subheading";
+import { H1, H3 } from "../../fonts";
 import Blockquote from "../Blockquote";
 import ImageGrid from "../ImageGrid";
 import Hero from "./Hero";
@@ -29,8 +28,8 @@ function Post({ title = "", content = "Hello", heroImages }: PostProps) {
 
   const markdownOptions = {
     overrides: {
-      h1: Title,
-      h3: Subheading,
+      h1: H1,
+      h3: H3,
       blockquote: Blockquote,
       img: Image,
       ImageGrid,

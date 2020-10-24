@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Global } from "@emotion/core";
-import baseTypeStyles from "./baseTypeStyles";
+import { baseTypeStyles } from "../fonts";
 
 interface PageHeadProps {
   title: string;
