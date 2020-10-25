@@ -1,7 +1,11 @@
 ---
 title: Invoice List
 heroImages:
-  - image: "/images/invoicelist/list-hero.png"
+  - image: "/images/invoicelist/wireframe-mobile-date.png"
+    alt: "Mobile phone with a list of invoices"
+  - image: "/images/invoicelist/v1-mobile.png"
+    alt: "Mobile phone with a list of invoices"
+  - image: "/images/invoicelist/v2-mobile.png"
     alt: "Mobile phone with a list of invoices"
 ---
 
@@ -23,7 +27,7 @@ The first aim was to ship something that would let a customer view all the bills
 ![Mobile wireframe](/images/invoicelist/wireframe-mobile.png)
 ![Mobile wireframe with Dates](/images/invoicelist/wireframe-mobile-date.png)
 </ImageGrid>
-Early exploration wireframes
+<Caption>Early exploration wireframes</Caption>
 
 Whilst the screen was fairly simple, the complications came from how people actually got to this screen and the privacy considerations that came with being able to view the history of . Since our focus was getting our customers paid faster, we decided to include a link in all invoices sent to our customers. We also had to keep privacy in mind as this would be confidential information to the business. With all of this in mind, I kept this first version quite simple as the team had to do a fair bit of work on the backend to allow the system to list all the invoices for one customer.
 
@@ -31,7 +35,7 @@ Whilst the screen was fairly simple, the complications came from how people actu
 ![Desktop](/images/invoicelist/v1-desktop.png)
 ![Mobile](/images/invoicelist/v1-mobile.png)
 </ImageGrid>
-The first version that was shipped.
+<Caption>The first version that was shipped.</Caption>
 
 ## Multiple payment - allow them to pay in one go
 
@@ -40,7 +44,7 @@ This approach allowed us to deliver value to our customers quickly, and get lear
 <video width="100%" controls>
     <source src="/images/invoicelist/multipay-prototype.mp4" />
 </video>
-Recording of a prototype demonstrating the behaviour
+<Caption>Recording of a prototype demonstrating the behaviour</Caption>
 
 Since the success of this project was very much tied to how many people actually paid through this page, I was really keen to ensure that the users of this page were getting a similar experience to the invoice payment page they already were looking at. To ensure this consistency, I re-used as much of the individual invoice page. This was one of those projects where it may seem very simple in the front-end but there was a lot being done in the backend.
 
@@ -48,4 +52,4 @@ Since the success of this project was very much tied to how many people actually
 ![Desktop](/images/invoicelist/v2-desktop.png)
 ![Mobile](/images/invoicelist/v2-mobile.png)
 </ImageGrid>
-The final list, complete with multiple payments.
+<Caption>The final list, complete with multiple payments.</Caption>
