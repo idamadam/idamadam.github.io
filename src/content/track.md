@@ -45,8 +45,8 @@ The conversations we had with our users also allowed us to understand what the k
 
 I made improvements to the existing flow by collating all the feedback. For example, we found that users preferred to enter information in their own way as opposed to entering it in a sequential flow.
 
-<ImageGrid gridTemplateColumns="1fr 1fr" fullbleed shadow=false > 
-    <img src="/images/timetracking/flow-before.png" alt="Before - Sequential flow" shadow=false round=false />
+<ImageGrid gridTemplateColumns="1fr 1fr" shadow="false" fullbleed > 
+    <img src="/images/timetracking/flow-before.png" alt="Before - Sequential flow" />
     <img src="/images/timetracking/flow-after.png" alt="After - Sequential flow" />
 </ImageGrid>
 
