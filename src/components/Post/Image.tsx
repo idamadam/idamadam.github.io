@@ -15,4 +15,18 @@ const Image = ({
   />
 );
 
+const Caption = ({ children }: React.PropsWithChildren<React.ReactNode>) => (
+  <p
+    css={{
+      textAlign: "center",
+      fontWeight: 600,
+      fontSize: "0.8em",
+      textTransform: "uppercase",
+    }}
+  >
+    {children}
+  </p>
+);
+
 export default Image;
+export { Image, Caption };

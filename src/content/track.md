@@ -31,7 +31,7 @@ Based on this information, I first started with an extremely rough prototype usi
         <source src="/images/timetracking/framer-prototype-white-bg.mp4" />
     </video>
 </div>
-The framer prototype
+<Caption>The framer prototype</Caption>
 
 The developers took this prototype and built out the flows using it as a guide. This allowed us to move fast and get a rough version of the app built out so that we could play with real software as quickly as possible.
 
@@ -50,8 +50,8 @@ I made improvements to the existing flow by collating all the feedback. For exam
     <img src="/images/timetracking/flow-after.png" alt="After - Sequential flow" />
 </ImageGrid>
 
-Before - Sequential flows 
-After - Choose your own adventure
+<Caption>Before - Sequential flows. After - Choose your own adventure</Caption>
+
 
 We were able to get a version of the app that we felt comfortable in releasing to our first wave of beta testers due to this feedback cycle. In addition to the workflows we changed as part of the feedback rounds, we set up the help and feedback portals for the beta process. This helped us later in the process to scale our feedback gathering to improve the product.
 
@@ -73,4 +73,4 @@ N.B. Time Tracking has since been renamed to Invoicing for AccountRight.
     </video>
 </div>
 
-The final product
+<Caption>The final product</Caption>

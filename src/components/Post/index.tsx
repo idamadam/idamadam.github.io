@@ -6,7 +6,7 @@ import { H1, H3 } from "../../fonts";
 import Blockquote from "./Blockquote";
 import ImageGrid from "../ImageGrid";
 import Hero from "./Hero";
-import Image from "./Image";
+import { Image, Caption } from "./Image";
 
 interface PostProps {
   title: string;
@@ -30,6 +30,7 @@ function Post({ title = "", content = "Hello", heroImages }: PostProps) {
     overrides: {
       h1: H1,
       h3: H3,
+      Caption,
       blockquote: Blockquote,
       img: Image,
       ImageGrid,
