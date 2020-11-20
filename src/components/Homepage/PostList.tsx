@@ -1,38 +1,67 @@
 import Link from "next/link";
 import Hero from "../Post/Hero";
-import { HomeProps } from "./index";
 
 interface PostProps {
   slug: string;
   title: string;
+  blurb: string;
   heroImages: Array<{
     image: string;
     alt: string;
   }>;
 }
 
-const Post = ({ slug, title, heroImages }: PostProps) => (
+const Post = ({ slug, title, heroImages, blurb }: PostProps) => (
   <div
     key={slug}
     css={{
       display: "grid",
-      gridTemplateColumns: "4fr 1fr",
+      gridTemplateColumns: "1fr",
+      "@media (min-width: 560px)": {
+        gridTemplateColumns: "4fr 1fr",
+      },
       alignItems: "center",
-      gridGap: "1em",
+      gridGap: "2em",
     }}
   >
     <Hero images={heroImages} />
-    <Link href={`/content/${slug}`}>{title}</Link>
+    <div>
+      <h2
+        css={{
+          lineHeight: 1,
+          marginTop: 0,
+        }}
+      >
+        {title}
+      </h2>
+      <p>{blurb}</p>
+      <Link href={`/content/${slug}`}>View project →</Link>
+    </div>
   </div>
 );
 
-const PostList = ({ posts }: HomeProps) => (
+export interface PostListProps {
+  posts: Array<{
+    metadata: {
+      title: string;
+      blurb: string;
+      heroImages: Array<{
+        image: string;
+        alt: string;
+      }>;
+    };
+    slug: string;
+  }>;
+}
+
+const PostList = ({ posts }: PostListProps) => (
   <div css={{ display: "grid" }}>
     {posts.map((post) => (
       <Post
         key={post.slug}
         title={post.metadata.title}
         slug={post.slug}
+        blurb={post.metadata.blurb}
         heroImages={post.metadata.heroImages}
       />
     ))}
