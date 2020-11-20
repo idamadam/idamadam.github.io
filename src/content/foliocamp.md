@@ -1,5 +1,6 @@
 ---
 title: Folio Camp
+blurb: An experiment in learning what it takes to build a product by myself.
 heroImages:
   - image: /images/foliocamp/foliocamp-hero.png
     alt: "Iterations of the landing page"

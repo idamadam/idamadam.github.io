@@ -1,5 +1,6 @@
 ---
 title: Invoice List
+blurb: A web experience to enable multiple bill payment.
 heroImages:
   - image: "/images/invoicelist/wireframe-mobile-date.png"
     alt: "Mobile phone with a list of invoices"

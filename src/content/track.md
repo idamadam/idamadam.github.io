@@ -1,5 +1,6 @@
 ---
 title: Time Tracking for AccountRight
+blurb: A mobile app to help SME's track their time.
 heroImages:
   - image: "/images/timetracking/hero-form.png"
     alt: "Mobile phone with timer screen"
