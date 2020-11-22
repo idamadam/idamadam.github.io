@@ -15,7 +15,8 @@ const Intro = () => (
       <a href="https://myob.com/" target="_blank" rel="noreferrer">
         MYOB
       </a>
-      .
+      . <br />
+      Based in Melbourne, Australia.
     </p>
     <p css={{ marginTop: 0 }}>
       Previously at&nbsp;
