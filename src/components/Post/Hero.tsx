@@ -71,7 +71,6 @@ function Hero({ images }: HeroProps) {
           borderRadius: "1em",
           boxShadow:
             "inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173,186,204,.25), 0 2px 6px rgba(0,21,64,.14), 0 10px 20px rgba(0,21,64,.05)",
-          ...heroGridStyle,
         }}
         src={images[0].image}
         alt={images[0].alt}
