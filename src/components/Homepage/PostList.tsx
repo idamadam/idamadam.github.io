@@ -18,7 +18,7 @@ const Post = ({ slug, title, heroImages, blurb }: PostProps) => (
       display: "grid",
       gridTemplateColumns: "1fr",
       "@media (min-width: 560px)": {
-        gridTemplateColumns: "4fr 1fr",
+        gridTemplateColumns: "3fr 1fr",
       },
       alignItems: "center",
       gridGap: "2em",
