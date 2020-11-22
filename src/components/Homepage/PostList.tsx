@@ -55,16 +55,19 @@ export interface PostListProps {
 }
 
 const PostList = ({ posts }: PostListProps) => (
-  <div css={{ display: "grid" }}>
-    {posts.map((post) => (
-      <Post
-        key={post.slug}
-        title={post.metadata.title}
-        slug={post.slug}
-        blurb={post.metadata.blurb}
-        heroImages={post.metadata.heroImages}
-      />
-    ))}
+  <div css={{ marginTop: "2em" }}>
+    <h2 css={{ marginBottom: 0 }}>Selected projects</h2>
+    <div css={{ display: "grid" }}>
+      {posts.map((post) => (
+        <Post
+          key={post.slug}
+          title={post.metadata.title}
+          slug={post.slug}
+          blurb={post.metadata.blurb}
+          heroImages={post.metadata.heroImages}
+        />
+      ))}
+    </div>
   </div>
 );
 
