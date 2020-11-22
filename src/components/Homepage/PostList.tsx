@@ -22,6 +22,7 @@ const Post = ({ slug, title, heroImages, blurb }: PostProps) => (
       },
       alignItems: "center",
       gridGap: "2em",
+      margin: "1em 0",
     }}
   >
     <Hero images={heroImages} />
@@ -56,7 +57,7 @@ export interface PostListProps {
 
 const PostList = ({ posts }: PostListProps) => (
   <div css={{ marginTop: "2em" }}>
-    <h2 css={{ marginBottom: 0 }}>Selected projects</h2>
+    <h2 css={{ marginBottom: 0, color: "#B5866E" }}>Selected projects</h2>
     <div css={{ display: "grid" }}>
       {posts.map((post) => (
         <Post
