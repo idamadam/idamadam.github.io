@@ -17,16 +17,16 @@ const Intro = () => (
       </a>
       .
     </p>
-    <p>
-      Previously at{" "}
+    <p css={{ marginTop: 0 }}>
+      Previously at&nbsp;
       <a href="https://canstar.com.au/" target="_blank" rel="noreferrer">
         Canstar
       </a>
-      ,{" "}
+      ,&nbsp;
       <a href="https://netengine.com.au/" target="_blank" rel="noreferrer">
         NetEngine
       </a>
-      ,{" "}
+      &nbsp;&amp;&nbsp;
       <a href="https://qut.edu.au/" target="_blank" rel="noreferrer">
         QUT
       </a>
