@@ -7,6 +7,7 @@ import Blockquote from "./Blockquote";
 import ImageGrid from "../ImageGrid";
 import Hero from "./Hero";
 import { Image, Caption } from "./Image";
+import Footer from "../Footer";
 
 interface PostProps {
   title: string;
@@ -47,6 +48,7 @@ function Post({ title = "", content = "Hello", heroImages }: PostProps) {
           {content}
         </Markdown>
       </article>
+      <Footer />
     </div>
   );
 }
