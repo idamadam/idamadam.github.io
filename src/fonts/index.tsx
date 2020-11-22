@@ -14,6 +14,14 @@ const baseTypeStyles = {
     fontFamily: `source-serif-pro, ${nativeFonts}`,
     marginBottom: "0",
   },
+  a: {
+    color: "#7C5D4C",
+    fontWeight: 500,
+    textDecoration: "none",
+    "&:hover": {
+      textDecoration: "underline",
+    },
+  },
 };
 
 export default baseTypeStyles;
