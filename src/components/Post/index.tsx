@@ -42,7 +42,7 @@ function Post({ title = "", content = "Hello", heroImages }: PostProps) {
       <PageHead title={pageTitle} />
       <Header />
       <article>
-        <Hero images={heroImages} css={contentBodyStyle} />
+        <Hero images={heroImages} />
         <Markdown options={markdownOptions} css={contentBodyStyle}>
           {content}
         </Markdown>
