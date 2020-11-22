@@ -32,7 +32,7 @@ const Post = ({ slug, title, heroImages, blurb }: PostProps) => (
           marginTop: 0,
         }}
       >
-        {title}
+        <Link href={`/content/${slug}`}>{title}</Link>
       </h2>
       <p>{blurb}</p>
       <Link href={`/content/${slug}`}>View project →</Link>
