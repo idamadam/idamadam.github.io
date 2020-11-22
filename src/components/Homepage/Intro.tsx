@@ -11,7 +11,7 @@ const Intro = () => (
       idam adam
     </p>
     <p css={{ fontSize: "2em", marginTop: "0.5em", marginBottom: 0 }}>
-      Product Designer at{" "}
+      Product designer at{" "}
       <a href="https://myob.com/" target="_blank" rel="noreferrer">
         MYOB
       </a>
@@ -23,13 +23,9 @@ const Intro = () => (
       <a href="https://canstar.com.au/" target="_blank" rel="noreferrer">
         Canstar
       </a>
-      ,&nbsp;
+      &nbsp;&amp;&nbsp;
       <a href="https://netengine.com.au/" target="_blank" rel="noreferrer">
         NetEngine
-      </a>
-      &nbsp;&amp;&nbsp;
-      <a href="https://qut.edu.au/" target="_blank" rel="noreferrer">
-        QUT
       </a>
       .
     </p>
