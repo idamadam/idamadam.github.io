@@ -8,7 +8,7 @@ heroImages:
     alt: "Mobile phone with a list of invoices"
   - image: "/images/invoicelist/v2-mobile.png"
     alt: "Mobile phone with a list of invoices"
-pageRank: 2
+pageRank: 3
 ---
 
 # Getting SME's paid faster
