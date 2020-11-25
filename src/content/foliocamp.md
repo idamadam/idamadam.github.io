@@ -57,8 +57,6 @@ During this time, I built a web app that did the following:
 2. Generate a unique link for the user
 3. Records any feedback that was sent to that user
 
-If you’d like to try it out for yourself, visit [folio.camp](https://folio.camp) and sign up for an account.
-
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fuyxx22aHo84nfUvnVApTfU%2FBuilt-Product%3Fnode-id%3D80%253A2&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 After a couple of months, I realised that I had gone down a technical rabbit hole and needed to get the product in front of people again. I asked friends for their help and they quickly got people who'd be interested in using the product.  
