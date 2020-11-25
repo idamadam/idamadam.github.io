@@ -4,6 +4,7 @@ blurb: An experiment in learning what it takes to build a product by myself.
 heroImages:
   - image: /images/foliocamp/foliocamp-hero.png
     alt: "Iterations of the landing page"
+pageRank: 3
 ---
 
 # Folio Camp

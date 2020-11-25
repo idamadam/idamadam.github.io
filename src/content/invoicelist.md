@@ -8,6 +8,7 @@ heroImages:
     alt: "Mobile phone with a list of invoices"
   - image: "/images/invoicelist/v2-mobile.png"
     alt: "Mobile phone with a list of invoices"
+pageRank: 2
 ---
 
 # Getting SME's paid faster
@@ -19,9 +20,9 @@ During my time at MYOB, we felt like this was an issue we were well placed to ta
 
 I was responsible as a Product Designer for this project. Together with a development team, I worked in iterative cycles with a focus on delivering working software at the end of each round.
 
-## The list - list all the invoices that a customer owes
+## Slice 1 - List all invoices that a customer owes
 
-The first aim was to ship something that would let a customer view all the bills they had outstanding. I used our data to understand how large the list would be, and used this to construct some wireframes of how the screen would look. This process was aided by the use of the MYOB Design system → Feelix.
+The first aim was to ship something that would let a customer view all the bills they had outstanding. I used our data to understand how large the list would be, and used this to construct some wireframes of how the screen would look. This process was aided by the use of the [MYOB Feelix Design System](https://feelix.myob.com/).
 
 <ImageGrid gridTemplateColumns="3.6fr 1fr 1fr">
 ![Desktop wireframe](/images/invoicelist/wireframe-desktop.png)
@@ -38,7 +39,7 @@ Whilst the screen was fairly simple, the complications came from how people actu
 </ImageGrid>
 <Caption>The first version that was shipped.</Caption>
 
-## Multiple payment - allow them to pay in one go
+## Slice 2 - Pay multiple invoices with 1 transaction
 
 This approach allowed us to deliver value to our customers quickly, and get learnings from it quickly. The next logical step in the list was to allow people to pay them all in one go. For this iteration, I again heavily used the MYOB Design system to ensure that customers of our clients were getting a payment page that was as similar to the invoice payment page that they were used to.
 
