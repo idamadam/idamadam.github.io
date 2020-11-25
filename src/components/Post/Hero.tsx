@@ -49,6 +49,7 @@ function Hero({ images }: HeroProps) {
   const heroGridStyle = {
     marginTop: "2em",
     display: "grid",
+    padding: "0 1em",
     gridTemplateColumns: "1fr min(65ch, 100%) 1fr",
     "& > *": {
       gridColumn: 2,
