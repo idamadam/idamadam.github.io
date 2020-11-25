@@ -1,5 +1,6 @@
 ---
 title: Time Tracking for AccountRight
+blurb: A mobile app to help SME's track their time.
 heroImages:
   - image: "/images/timetracking/hero-form.png"
     alt: "Mobile phone with timer screen"
@@ -7,6 +8,7 @@ heroImages:
     alt: "Mobile phone with timer screen"
   - image: "/images/timetracking/hero-list.png"
     alt: "Mobile phone with timer screen"
+pageRank: 1
 ---
 
 # Track time on the go
@@ -39,7 +41,7 @@ The developers took this prototype and built out the flows using it as a guide. 
 
 We took this first cut of the software to one of our customers to understand how well the initial prototype fit their needs. The interview and usability test revealed that the time tracking process was core to their business, but there were a lot of inefficiencies to the way they were doing it right now.
 
-> Insight: Data entry was done at the end of the week. This often introduced errors that needed to be fixed. The time spent on fixing mistakes wasn't billable and increased costs for the business.
+> **Research Insight:** Data entry was done at the end of the week. This often introduced errors that needed to be fixed. The time spent on fixing mistakes wasn't billable and increased costs for the business.
 
 The conversations we had with our users also allowed us to understand what the key workflows were within the app and to identify future opportunities. For example, we began to understand that an equivalent of the app was a diary for someone's workday.
 
@@ -59,7 +61,7 @@ We were able to get a version of the app that we felt comfortable in releasing t
 
 After the initial beta, we kept our customers close by the way of bug reports, feature requests as well as another round of usability tests. The priority of this iteration was to understand what needed tightening with the app so that we could promote it to general availability.
 
-> Insight: Testers started to change their behavior with usage. We noticed that most testers were reporting that they were now submitting slips more frequently.
+> **Research Insight:** Testers started to change their behavior with usage. We noticed that most testers were reporting that they were now submitting slips more frequently.
 
 Based on the feedback, we added features, fixed many small bugs and workflow issues. We also shipped a timer to the app as it was one of the most requested features from our customers. After this work was completed, we promoted the app to general availability.
 

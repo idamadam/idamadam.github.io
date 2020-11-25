@@ -24,6 +24,14 @@
 
 @font-face {
   font-family: 'source-serif-pro';
+  font-style: medium;
+  font-weight: 500;
+  src: url('source-serif-pro/WOFF2/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
+       url('source-serif-pro//WOFF/SourceSerifPro-Semibold.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'source-serif-pro';
   font-style: bold;
   font-weight: 700;
   src: url('source-serif-pro/WOFF2/SourceSerifPro-Bold.otf.woff2') format('woff2'),

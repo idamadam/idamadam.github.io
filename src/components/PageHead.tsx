@@ -3,7 +3,7 @@ import { Global } from "@emotion/core";
 import { baseTypeStyles } from "../fonts";
 
 interface PageHeadProps {
-  title: string;
+  title?: string;
 }
 
 const PageHead = ({ title = "Idam Adam" }: PageHeadProps) => (
