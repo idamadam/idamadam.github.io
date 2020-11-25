@@ -1,5 +1,5 @@
 ---
-title: Invoice List
+title: Online statements
 blurb: A web experience to enable multiple bill payment.
 heroImages:
   - image: "/images/invoicelist/wireframe-mobile-date.png"
@@ -11,7 +11,7 @@ heroImages:
 ---
 
 # Getting SME's paid faster
-### Invoice list
+### Online statements
 
 SME's in Australia face a chronic problem of late invoice payment. It is estimated that 90% of small businesses are failing due to cash flow problems. In addition to the cash flow problem, my interviews with customers revealed that chasing up debtors can be a major task for our customers which means that less of their resources are going to working on their business.
 
