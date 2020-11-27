@@ -11,7 +11,10 @@ export default Homepage;
 export async function getStaticProps() {
   const files = fs.readdirSync("src/content");
 
-  const posts = files.map((filename) => {
+  // Handle .DS_Store files
+  const filteredFiles = files.filter((filename) => !filename.startsWith("."));
+
+  const posts = filteredFiles.map((filename) => {
     const rawMarkdown = fs
       .readFileSync(path.join("src/content", `${filename}`))
       .toString();
