@@ -23,7 +23,7 @@ const Intro = () => (
       <a href="https://myob.com.au/" target="_blank" rel="noreferrer">
         MYOB
       </a>
-      &nbsp;&amp;&nbsp;
+      ,&nbsp;
       <a href="https://canstar.com.au/" target="_blank" rel="noreferrer">
         Canstar
       </a>
